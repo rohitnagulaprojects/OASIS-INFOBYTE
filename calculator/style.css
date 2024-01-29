@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: #000000;
+    margin: 0;
+}
+.container {
+    background: #262525;
+    width: 100%;
+    text-align: center;
+    height: 80px;
+}
+.container h2{
+    font-size:60px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.calculator {
+    background-color: #3a3a3a;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.calculator input {
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: right;
+    color: #333;
+    background-color: #fff;
+}
+
+.calculator button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #666;
+    color: #fff;
+}
+
+.calculator button.operator {
+    background-color: #f5913e;
+}
+
+.calculator button.equal {
+    background-color: #4caf50;
+}
+
+.calculator button.double {
+    width: calc(60px * 2 + 5px);
+}
+
+.calculator button.triple {
+    width: calc(60px * 3 + 10px * 2);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
